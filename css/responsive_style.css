@@ -1,0 +1,169 @@
+@media only screen and (max-device-width: 480px) {
+    /* Styles */
+    body {
+        font-size: 1.4rem;
+    }
+    nav {
+        float: right;
+    }
+    ul li {
+        padding: 15px;
+    }
+    aside {
+        width: 96%;
+        position: absolute;
+        float: left;
+        top: 6%;
+    }
+    #reader {
+        height: 600px!important;
+        position: absolute!important;
+        width: calc(100% - 165px)!important;
+        top: 20%!important;
+        margin-left: 40px!important;
+        margin-right: 40px!important;
+        border: 2px solid darkslateblue!important;
+    }
+    #reader__dashboard {
+        position: absolute;
+        top: 50%;
+    }
+    #reader__scan_region {
+        position: absolute;
+        top: 10%;
+    }
+    #reader__scan_region img {
+        width: 150px;
+    }
+    #reader__dashboard_section_csr button {
+        height: 80px;
+        font-size: 32px;
+        width: 450px;
+        margin-bottom: 50px;
+        background-color: darkslateblue;
+        color: white;
+    }
+    #reader__dashboard_section_swaplink {
+        font-size: 32px;
+    }
+    span {
+        font-size: 32px;
+    }
+    .widget .employee {
+        /*display: inline-block;*/
+        /*float: right;*/
+        margin-top: 80px!important;
+    }
+    .widget .company {
+        /*display: inline-block;*/
+        /*float: left;*/
+    }
+    .widget .inner {
+        margin: 0 30px;
+    }
+    ul li input[type="text"], ul li input[type="password"], ul li input[type="number"] {
+        width: 80%;
+        height: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    textarea {
+        width: 80%;
+        height: 200px;
+    }
+    .checkmark{
+        font-size: 32px;
+        height: 40px;
+        width: 40px;
+    }
+    .fa-color {
+        color: white;
+    }
+    #menu {
+        display: inline-block!important;
+        font-size: 54px!important;
+        color: white;
+    }
+    .widget-loggedin {
+        position: absolute;
+        min-height: 86vh;
+        /*min-height: calc(100vh - 240px);*/
+        width: 80%;
+        background-color: mediumslateblue;
+        display: none;
+        float: left;
+        margin-left: -20px;
+        margin-top: -20px;
+        padding: 30px 0px 0px 30px;
+        color: white;
+        font-size: 48px;
+        z-index: 999;
+    }
+    .widget-loggedin .inner ul li {
+        padding-bottom: 40px;
+    }
+    .widget-loggedin .inner ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .add-employee {
+        width: 90%;
+        margin: 40px;
+        color: white;
+        height: 130px;
+        line-height: 130px;
+    }
+    .gen-btn {
+        font-size: 24px;
+        height: 80px;
+        width: 130px;
+    }
+    .menu {
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    table {
+        width: 100%!important;
+        /*position: absolute;*/
+    }
+    td, th {
+        padding: 25px!important;
+    }
+    .monthly-record-form {
+        position: absolute;
+        left: 35%;
+        transform: translateX(-50%);
+    }
+    select, ul li input[type="date"] {
+        width: 200%;
+        height: 100px;
+        font-size: 32px;
+    }
+    .modal{
+        padding-top: 155px;
+    }
+    .modal-content{
+        width: 80%;
+    }
+    .modal-header{
+        padding: 8px 20px;
+    }
+    .modal-footer{
+        height: 90px;
+    }
+    .close{
+        font-size: 62px;
+    }
+    .confirm-btn{
+        top: 30%;
+        width: 90px;
+        padding: 12px;
+        font-size: 32px;
+        margin: 25px;
+    }
+    .ellipsis{
+        width: 200px;
+    }
+}
